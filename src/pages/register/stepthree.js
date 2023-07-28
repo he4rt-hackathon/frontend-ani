@@ -1,8 +1,8 @@
-import RegisterForm from "./components/stepOneForm";
+import StepThreeForm from "./components/stepThreeForm";
 
-export default function stepone() {
+export default function stepthree() {
   return (
-    <div className="bg-secondary bg-no-repeat bg-cover bg-center w-screen h-screen sm:absolute sm:bg-secondary/90 sm:bg-auto ">
+    <div className="bg-secondary/90 bg-no-repeat bg-cover bg-center w-screen h-screen sm:absolute sm:bg-auto ">
       <div className="flex flex-col justify-center items-center h-screen ">
         <div className="w-[343px]">
           <span className="text-white text-xl font-bold tracking-wide">
@@ -22,7 +22,7 @@ export default function stepone() {
           fácil.
         </div>
 
-        <RegisterForm />
+        <StepThreeForm />
       </div>
     </div>
   );

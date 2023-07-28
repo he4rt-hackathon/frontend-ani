@@ -1,28 +1,17 @@
-import RegisterForm from "./components/stepOneForm";
+import StepTwoForm from "./components/stepTwoForm";
+import * as Avatar from "@radix-ui/react-avatar";
 
-export default function stepone() {
+export default function stepTwoForm() {
   return (
-    <div className="bg-secondary bg-no-repeat bg-cover bg-center w-screen h-screen sm:absolute sm:bg-secondary/90 sm:bg-auto ">
+    <div className="bg-secondary/90 bg-no-repeat bg-cover bg-center w-screen h-screen sm:absolute sm:bg-auto ">
       <div className="flex flex-col justify-center items-center h-screen ">
-        <div className="w-[343px]">
-          <span className="text-white text-xl font-bold tracking-wide">
-            Sua
-          </span>
-          <span className="text-white text-xl font-bold tracking-wide"> </span>
-          <span className="text-primary text-xl font-bold tracking-wide">
-            vida financeira
-          </span>
-          <span className="text-white text-xl font-bold tracking-wide"> </span>
-          <span className="text-white text-xl font-bold tracking-wide">
-            de uma forma nova.
-          </span>
-        </div>
-        <div className="w-[343px] text-white-secondary text-base font-normal mt-3">
-          Tenha controle agora da sua vida financeira de uma forma rápida e
-          fácil.
-        </div>
+        <Avatar.Root className="bg-secondary-50 inline-flex h-[128px] w-[128px] select-none items-center justify-center overflow-hidden rounded-full align-middle">
+          <Avatar.Fallback className="text-primary leading-1 flex h-full w-full items-center justify-center bg-white text-[15px] font-bold text-xl">
+            CAIXA
+          </Avatar.Fallback>
+        </Avatar.Root>
 
-        <RegisterForm />
+        <StepTwoForm />
       </div>
     </div>
   );
