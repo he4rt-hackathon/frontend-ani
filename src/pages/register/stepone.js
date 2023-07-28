@@ -1,9 +1,8 @@
-import LoginForm from "./LoginForm";
-import Link from "next/link";
+import RegisterForm from "./components/registerForm";
 
-export default function login() {
+export default function stepone() {
   return (
-    <div className="bg-loginBgMobile bg-no-repeat bg-cover bg-center w-screen h-screen sm:bg-loginBgDesktop sm:absolute sm:bg-secondary/90 sm:bg-auto ">
+    <div className="bg-secondary bg-no-repeat bg-cover bg-center w-screen h-screen sm:absolute sm:bg-secondary/90 sm:bg-auto ">
       <div className="flex flex-col justify-center items-center h-screen ">
         <div className="w-[343px]">
           <span className="text-white text-xl font-bold tracking-wide">
@@ -23,22 +22,7 @@ export default function login() {
           fácil.
         </div>
 
-        <LoginForm />
-
-        <div className="text-center mt-16">
-          <span className="text-white text-base font-medium">
-            Não possui conta?
-            <br />
-          </span>
-
-          <span className="text-primary text-base font-bold">
-            <Link href="/register/stepone">Clique aqui</Link>
-          </span>
-          <span className="text-white text-base font-bold"> </span>
-          <span className="text-white text-base font-medium">
-            para se registrar
-          </span>
-        </div>
+        <RegisterForm />
       </div>
     </div>
   );

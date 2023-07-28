@@ -8,8 +8,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        loginBackground:
+        loginBgMobile:
           "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../assets/login/backgroundLogin.svg')",
+        loginBgDesktop: "url('../assets/login/backgroundLogin.svg')",
       },
     },
     colors: {
@@ -28,6 +29,7 @@ module.exports = {
       },
       secondary: {
         DEFAULT: "#000",
+        border: "#1C1D1D",
         50: "#F3F4F4",
         100: "#DCDDDD",
         200: "#C5C7C7",
