@@ -28,7 +28,7 @@ const LoginForm = () => (
         </div>
         <Form.Control asChild>
           <input
-            className="box-border w-full bg-secondary bg-opacity-20 shadow-secondary inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-primary shadow-[0_0_0_1px] outline-none hover:shadow-primary focus:shadow-primary  selection:color-primary selection:text-primary"
+            className="box-border w-full bg-secondary bg-opacity-20 shadow-secondary-border inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-primary shadow-[0_0_0_1px] outline-none hover:shadow-primary focus:shadow-primary  selection:color-primary selection:text-primary"
             type="email"
             placeholder="Informe seu email"
             required
@@ -56,7 +56,7 @@ const LoginForm = () => (
         </div>
         <Form.Control asChild>
           <input
-            className="box-border w-full bg-secondary bg-opacity-20 shadow-secondary inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-primary shadow-[0_0_0_1px] outline-none hover:shadow-primary focus:shadow-primary  selection:color-primary selection:text-primary"
+            className="box-border w-full bg-secondary bg-opacity-20 shadow-secondary-border inline-flex h-[35px] appearance-none items-center justify-center rounded-[4px] px-[10px] text-[15px] leading-none text-primary shadow-[0_0_0_1px] outline-none hover:shadow-primary focus:shadow-primary  selection:text-primary"
             type="password"
             placeholder="Informe sua senha"
             required
@@ -64,7 +64,7 @@ const LoginForm = () => (
         </Form.Control>
       </Form.Field>
 
-      <div className="text-center text-highEmphasis text-xs font-normal my-11 text-end">
+      <div className=" text-highEmphasis text-xs font-normal my-11 text-end">
         Esqueceu sua senha?
       </div>
 

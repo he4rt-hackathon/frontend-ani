@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         loginBgMobile:
-          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../assets/login/backgroundLogin.svg')",
-        loginBgDesktop: "url('../assets/login/backgroundLogin.svg')",
+          "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url('../assets/login/backgroundLogin.jpg')",
+        loginBgDesktop: "url('../assets/login/backgroundLogin.jpg')",
       },
     },
     colors: {

@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function login() {
   return (
-    <div className="bg-loginBgMobile bg-no-repeat bg-cover bg-center w-screen h-screen sm:bg-loginBgDesktop sm:absolute sm:bg-secondary/90 sm:bg-auto ">
+    <div className="bg-loginBgMobile bg-no-repeat bg-cover bg-center w-screen h-screen sm:bg-loginBgDesktop/80 sm:bg-secondary/90 sm:bg-cover ">
       <div className="flex flex-col justify-center items-center h-screen ">
         <div className="w-[343px]">
           <span className="text-white text-xl font-bold tracking-wide">
